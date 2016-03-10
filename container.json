@@ -1,0 +1,56 @@
+{  
+   "name":"",
+   "dns":null,
+   "volumesFrom":null,
+   "capAdd":null,
+   "capDrop":null,
+   "Hostname":"",
+   "User":"",
+   "Memory":268435456,
+   "MemorySwap":0,
+   "CpuShares":1,
+   "Cpuset":null,
+   "AttachStdin":false,
+   "AttachStdout":false,
+   "AttachStderr":false,
+   "PortSpecs":null,
+   "Tty":false,
+   "OpenStdin":false,
+   "StdinOnce":false,
+   "Env":[  
+      "SERVICE_TAGS=NEWEST_BUILD"
+   ],
+   "Cmd":null,
+   "Entrypoint":null,
+   "Image":"NEWEST_BUILD",
+   "Volumes":{  
+
+   },
+   "WorkingDir":"",
+   "DisableNetwork":false,
+   "ExposedPorts":{  
+      "8080/tcp":{  
+
+      }
+   },
+   "HostConfig":{  
+      "Binds":null,
+      "Links":[  
+
+      ],
+      "LxcConf":null,
+      "PortBindings":null,
+      "PublishAllPorts":true,
+      "Privileged":false,
+      "Dns":null,
+      "DnsSearch":null,
+      "VolumesFrom":null,
+      "ContainerIDFile":null,
+      "CapAdd":null,
+      "CapDrop":null,
+      "RestartPolicy":null,
+      "NetworkMode":null,
+      "Devices":null,
+      "ExtraHosts":null
+   }
+}
